@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-family: sans-serif, Arial, Segoe, Verdana; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+	font-weight: lighter;
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+
+#clcNeko{
+	height: 40px;
+}
+.Startext {
+	font-size: 40px;
+	line-height: 80px;
+}
+
+td {
+	align-content: center;
+}
+
+.content {
+	position:absolute;
+	top: 50%;
+	height: 300px;
+	margin-top: -150px;
+}
