@@ -1,6 +1,6 @@
 
 	
-	var memorial = new Date("2012-09-01");
+	var memorial = new Date("2018-07-13");
 	var systime = new Date();
 	var dif = parseInt(Math.abs(systime - memorial) / 1000 / 60 / 60 / 24);
 	var bnrDate = dif.toString(2).split("");
@@ -23,8 +23,8 @@ $(document).ready(function(){
 		for ( var x in bnrDate)
 		{
 			if(bnrDate.hasOwnProperty(x)){
-			if(bnrDate[x]==="1") {$("#neko").append("喵");}
-			if(bnrDate[x]==="0") {$("#neko").append("咪");}
+			if(bnrDate[x]==="1") {$("#neko").append('<img height="35px" src="img/ichi.jpg">');}
+			if(bnrDate[x]==="0") {$("#neko").append('<img height="35px" src="img/zero.gif">');}
 			}
 		}
   	});
