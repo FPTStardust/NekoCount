@@ -23,7 +23,7 @@ $(document).ready(function(){
 		for ( var x in bnrDate)
 		{
 			if(bnrDate.hasOwnProperty(x)){
-			if(bnrDate[x]==="1") {$("#neko").append('<img height="35px" src="img/ichi.jpg">');}
+			if(bnrDate[x]==="1") {$("#neko").append('<img height="35px" src="img/ichi.png">');}
 			if(bnrDate[x]==="0") {$("#neko").append('<img height="35px" src="img/zero.gif">');}
 			}
 		}
