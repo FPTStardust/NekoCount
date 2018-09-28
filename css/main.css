@@ -60,4 +60,8 @@ td {
 .btn:hover{
 	color:#840002;
 	background-color: #FF7678;
+	border: solid #FFB600 thick;
+}
+.btn:focus{
+	border: solid #FFB600 thick;
 }
